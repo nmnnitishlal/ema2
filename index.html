@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form in HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+.copyright em,p{
+display: inline;
+}
+.copyright em{
+text-decoration: underline;
+font-weight: 1000;
+}
+.word{
+text-decoration: underline;
+}
+.copyright i{
+color: lightgreen;
+}
+.contacts{
+display: flex;
+}
+.contact1{
+margin-left: 600px;
+margin-top: 100px;
+}
+.contact1:hover{
+cursor: pointer;
+}
+.contact1 i{
+    display: block;
+    margin-left: 100px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="">
+            <div class="country">
+                <ul>
+                    <li class="l1">Songs</li>
+                    <li class="l2">Live stream</li>
+                </ul>
+            </div>
+            <h1>Login</h1>
+            
+            <div class="inputbox">
+                <input type="text" placeholder="UserName" required>
+                <i class='bx bxs-user'></i>
+            </div> 
+            
+            <div class="inputbox">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox">Remember me
+                </label>
+                <p class="forgot">
+                <a href="email.html">Forgot Password?</a>
+                </p>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            
+            <div class="register-link">
+                <p>Don't have an account? 
+                    <a href="register.html">Register</a>
+                </p>
+
+            </div>
+        </form>
+    </div>
+    <div class="contacts">
+    <div class="copyright" style=" margin-top: 130px;
+    font-size: xx-small;
+    color: blue;">
+        <p>Copyright 2024 </p>
+        <em>Bigtree Entertainment Pvt.Ltd.</em>
+        
+        <p>All rights reserved.</p>
+        <div class="word">
+        <h3>the content and images used on this site are copyrights vests with respective owners.</h3>
+        </div>
+        
+    </div>
+    <div class="contact1" style="margin-left: 750px;margin-top: 125px;">
+        <i class="fa-solid fa-phone" style="color: white;"></i>
+        <span style="color: white;">+114 012345678</span>
+    </div>
+    </div>
+    
+
+    
+ </body>
+ </html>
